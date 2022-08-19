@@ -1,5 +1,8 @@
 body {
   font: 65%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .Nav {
@@ -200,7 +203,20 @@ body {
 .copyrighth {
   font-weight: 500;
 }
+
+
+@media only screen and (min-width: 380px) {
+.Container{
+  width: 100vw;
+  border: 2px solid yellow;
+
+}
+}
 @media only screen and (max-width: 768px) {
+  .Nav{
+    width: 100vw;
+  }
+  
   .Container {
     /* background-color: black; */
     display: flex;
@@ -209,6 +225,7 @@ body {
     align-items: center;
     margin: 0rem;
     padding: 0rem;
+  width: 100%;
   }
   .subContainer {
     margin-left: 0rem;
@@ -232,7 +249,7 @@ body {
   }
   .texts {
     left: 0;
-    top: 34rem;
+    top: 40rem;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -292,7 +309,7 @@ body {
   }
 
   .copyright {
-    margin-top: 15rem;
+    margin-top: 25rem;
     margin-left: 20%;
     display: flex;
     flex-wrap: wrap;
