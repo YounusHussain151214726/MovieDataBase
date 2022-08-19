@@ -1,0 +1,4 @@
+.subContainer{
+    display :flex;
+    flex-direction:row
+}
